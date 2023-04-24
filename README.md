@@ -14,8 +14,8 @@ kmc_tools transform reads histogram reads21.histo -cx100000
 respect -d dataTURTLE/ -I dataTURTLE/hist_info.txt -N 11 --debug
 
 # Repetitive Element Analyses
-# RepeatExplorer
-http://repeatexplorer.org/
+#     RepeatExplorer
+      http://repeatexplorer.org/
 
 # Reads Decontamination (Kraken2)
 kraken2 --use-names --db /home/ant/kraken2-microbial-fatfree/ --gzip-compressed --paired fastpSRR13329724_1.fastq.gz fastpSRR13329724_2.fastq.gz --threads 11 --unclassified-out uncseqs#.fastq --report kraken2_report.txt --output kraken2_output.txt
