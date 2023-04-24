@@ -5,3 +5,7 @@ Genome Survey Sequencing in the Alligator Snapping Turtle
 
 # Reads Quality Control (fastp)
 
+
+# Mitochondrial Genome Assembly (GetOrganelle)
+
+get_organelle_from_reads.py -1 SRR13329724_1.fastq.gz -2 SRR13329724_2.fastq.gz -t 11 -o OtherSnappingTurtle.mitogenome -F animal_mt -R 10 -s NC_011198.fasta
