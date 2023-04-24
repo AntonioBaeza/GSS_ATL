@@ -33,4 +33,4 @@ perl ../EDTA.pl --genome Galaxy1029Shovill.fasta --overwrite 1 --sensitive 1 --a
 get_organelle_from_reads.py -1 SRR13329724_1.fastq.gz -2 SRR13329724_2.fastq.gz -t 11 -o SnappingTurtle.mitogenome -F animal_mt -R 10 -s SeedMitogemome.fasta
 
 # Mitochondrial Genome Annotation
-https://baezaantonio.wixsite.com/clemsonmitogenomics
+https://baezaantonio.wixsite.com/clemsonmitogenomics/resources
