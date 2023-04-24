@@ -30,5 +30,7 @@ python3 dnaPipeTE.py -input /mnt/data/fastpuncseqsMITONOTmapped.1.fastq.gz -outp
 perl ../EDTA.pl --genome Galaxy1029Shovill.fasta --overwrite 1 --sensitive 1 --anno 1 --evaluate 1 --threads 10 --force 1
 
 # Mitochondrial Genome Assembly (GetOrganelle)
-
 get_organelle_from_reads.py -1 SRR13329724_1.fastq.gz -2 SRR13329724_2.fastq.gz -t 11 -o SnappingTurtle.mitogenome -F animal_mt -R 10 -s SeedMitogemome.fasta
+
+# Mitochondrial Genome Annotation
+https://baezaantonio.wixsite.com/clemsonmitogenomics
